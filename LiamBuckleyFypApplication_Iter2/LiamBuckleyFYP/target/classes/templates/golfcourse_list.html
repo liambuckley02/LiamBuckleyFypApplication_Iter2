@@ -1,0 +1,34 @@
+<!-- `src/main/resources/templates/golfcourse_list.html` -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Golf Course List</title>
+</head>
+<body>
+<h1> Welcome to the Golf Courses page <span th:text="${userLogin}" ></span></h1>
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Location</th>
+    <th>Description</th>
+    <th>Contact Info</th>
+    <th>Holes</th>
+    <th>Rating</th>
+    <th>Green Fee</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="golfCourse : ${golfCourses}">
+    <td th:text="${golfCourse.name}"></td>
+    <td th:text="${golfCourse.location}"></td>
+    <td th:text="${golfCourse.description}"></td>
+    <td th:text="${golfCourse.contactInfo}"></td>
+    <td th:text="${golfCourse.holes}"></td>
+    <td th:text="${golfCourse.rating}"></td>
+    <td th:text="${golfCourse.greenFee}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
