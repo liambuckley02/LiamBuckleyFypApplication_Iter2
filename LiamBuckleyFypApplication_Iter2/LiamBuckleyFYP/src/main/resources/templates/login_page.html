@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<body class="full-height">
 <form method="post" action="/login" th:request="${loginRequest}">
     <div class="form">
         <h2>Login</h2>
@@ -14,7 +15,6 @@
             <i class="fa fa-user" aria-hidden="true"></i>
             <input type="text" name="login" placeholder="Username" required>
         </div>
-
         <div class="input-box">
             <i class="fa fa-unlock-alt" aria-hidden="true"></i>
             <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
