@@ -1,5 +1,6 @@
 //Below code is taken from a YouTube tutorial by Java Master (2021) on how to create a user register and login page
 package com.example.liambuckleyfyp.controller;
+
 import jakarta.servlet.http.HttpSession;
 import com.example.liambuckleyfyp.service.UsersService;
 import org.springframework.ui.Model;
@@ -14,22 +15,26 @@ public class UsersController {
 
     private final UsersService usersService;
 
+    // Constructor to inject UsersService dependency
     public UsersController(UsersService usersService) {
         this.usersService = usersService;
     }
 
+    // Handles GET requests to "/register" and returns the registration page
     @GetMapping("/register")
     public String getRegisterPage(Model model){
         model.addAttribute("registerRequest", new UsersModel());
         return "register_page";
     }
 
+    // Handles GET requests to "/login" and returns the login page
     @GetMapping("/login")
     public String getLoginPage(Model model){
         model.addAttribute("loginRequest", new UsersModel());
         return "login_page";
     }
 
+    // Handles POST requests to "/register" and processes user registration
     @PostMapping("/register")
     public String register(@ModelAttribute UsersModel usersModel){
         System.out.println("register request: " + usersModel);
@@ -37,6 +42,7 @@ public class UsersController {
         return registeredUser == null ? "error_page" : "redirect:/login";
     }
 
+    // Handles POST requests to "/login" and processes user login
     @PostMapping("/login")
     public String login(@ModelAttribute UsersModel usersModel, Model model, HttpSession session){
         System.out.println("login request: " + usersModel);

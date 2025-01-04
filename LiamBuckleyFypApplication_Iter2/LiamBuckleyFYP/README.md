@@ -61,3 +61,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 // FrankDoodie. (2018). Login form - Simple Sign In Page Design. [online] Available at: https://codepen.io/FrankieDoodie/details/OBZMZN
 [Accessed 6 Nov. 2024].
 // David T.Miller (2013). Shop Homepage - Bootstrap Ecommerce Store Template. [online] Available at: https://startbootstrap.com/template/shop-homepage. [Accessed 6 Nov. 2024]. 
+//Images used in project
+Image 1: Discover Ireland. (2024). Douglas Golf Club. [online] Available at: https://www.discoverireland.ie/cork/douglas-golf-club [Accessed 16 Nov. 2024].
+Image 2: Monkstown Golf Club Cork. (2021). The Course - Monkstown Golf Club Cork. [online] Available at: https://monkstowngolfclub.com/the-course/ [Accessed 16 Nov. 2024].
+Image 3:PB@BD (2022). Photo Gallery | Raffeen Creek Golf Club | Ringaskiddy, Co. Cork. [online] Raffeen Creek Golf Club. Available at: https://raffeencreek.ie/gallery#iLightbox.
+Image 4:Mahongolfcourse.ie. (2016). Available at: https://www.mahongolfcourse.ie/wp-content/uploads/sites/6290/2017/03/pg07.jpg [Accessed 16 Nov. 2024].
+Image 5: Gogolfing.ie. (2024). Cork Golf Club Cork Golf Deals & Hotel Accommodation. [online] Available at: http://www.gogolfing.ie/golf-course.php?id_club=71. [Accessed 16 Nov. 2024].
+Image 6: Tripadvisor. (2024). Tripadvisor. [online] Available at: https://www.tripadvisor.ie/Attraction_Review-g664939-d491490-Reviews-Fota_Island_Golf_Club-Fota_Island_County_Cork.html#/media/491490/?albumid=-160&type=ALL_INCLUDING_RESTRICTED&category=-160 [Accessed 16 Nov. 2024].
+Image 7: COBH GOLF CLUB. (2022). Gallery - COBH GOLF CLUB. [online] Available at: https://cobhgolfclub.ie/gallery/. [Accessed 16 Nov. 2024].
+Image 8:Tripadvisor. (2024). Tripadvisor. [online] Available at: https://www.tripadvisor.ie/Attraction_Review-g186600-d790056-Reviews-Lee_Valley_Golf_Country_Club-Cork_County_Cork.html#/media/790056/?albumid=-160&type=ALL_INCLUDING_RESTRICTED&category=-160 [Accessed 16 Nov. 2024].
+Image 9:Haversham.com. (2024). Available at: https://www.haversham.com/wp-content/uploads/bb-plugin/cache/old-head-golf-links-hero-scaled-landscape-c5b61d4d99656b658ebf94ab4678d7ba-jla0ge24r7vb.jpg [Accessed 16 Nov. 2024].
+Image 10:Muskerrygolfclub.com. (2024). Available at: https://www.muskerrygolfclub.com/uploads/1/4/7/0/147076939/muskerry-gc-4_orig.jpg [Accessed 16 Nov. 2024].

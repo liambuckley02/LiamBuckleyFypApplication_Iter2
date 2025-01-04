@@ -1,3 +1,4 @@
+/* Below css is taken from codepen.io and modified to suit the project */
 /* Reset margin and padding for the body, set font and background image */
 body {
     margin: 0;
@@ -111,3 +112,6 @@ body {
 .card {
     height: 300px; /* Adjust the height as needed */
 }
+
+/* FrankDoodie. (2018). Login form - Simple Sign In Page Design. [online] Available at: https://codepen.io/FrankieDoodie/details/OBZMZN
+[Accessed 6 Nov. 2024].

@@ -1,3 +1,4 @@
+//Below code is a mix of YouTube tutorial by Java Master (2021) on how to create a user register and login page and my own code just with the necessary changes to make it work for my project(line 11-21) GitHub copilot helped me with the rest from  line 22-33.
 package com.example.liambuckleyfyp.service;
 
 import com.example.liambuckleyfyp.model.GolfCourse;
@@ -11,21 +12,31 @@ import java.util.List;
 public class GolfCourseService {
 
     @Autowired
-    private GolfCourseRepository golfCourseRepository;
+    private GolfCourseRepository golfCourseRepository; // Injecting the GolfCourseRepository dependency
 
+    // Method to retrieve all golf courses
     public List<GolfCourse> getAllGolfCourses() {
         return golfCourseRepository.findAll();
     }
 
-    public GolfCourse getGolfCourseById(Long id) {
+    // Method to retrieve a golf course by its ID
+    public GolfCourse getGolfCourseById(int id) {
         return golfCourseRepository.findById(id).orElse(null);
     }
 
-    public GolfCourse saveGolfCourse(GolfCourse golfCourse) {
-        return golfCourseRepository.save(golfCourse);
+    // Method to save or update a golf course currently not in use will be in later iterations
+    public void saveGolfCourse(GolfCourse golfCourse) {
+        golfCourseRepository.save(golfCourse);
     }
 
-    public void deleteGolfCourse(Long id) {
+    // Method to delete a golf course by its ID not in use will be in later iterations
+    public void deleteGolfCourse(Integer id) {
         golfCourseRepository.deleteById(id);
     }
 }
+//References
+//Java Master (2021). Java Web Project | Create Login and Register Form From Scratch with, Java11, Spring MVC, PostgreSQL. [online] YouTube. Available at: https://www.youtube.com/watch?v=x_nfnVU0wAI [Accessed 2 Nov. 2024].
+//GitHub Co-pilot
+//License to: Liam Buckley(liambuckley02)
+//License restriction: For educational use only
+//Valid through: November 2nd 2025
